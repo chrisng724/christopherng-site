@@ -68,7 +68,7 @@ export default function About() {
           </Reveal>
 
           <Reveal delay={80}>
-            <p className="font-jost text-pine/90 text-[17px] md:text-[18px] leading-[1.8] mt-8 max-w-xl">
+            <p className="font-jost text-pine/80 text-[16px] md:text-[17px] leading-[1.85] mt-8 max-w-xl">
               The essence of my business is captured in this one simple
               phrase: making the buying, selling, and investing process as
               easy and seamless as possible for my clients, my people. This
@@ -79,7 +79,7 @@ export default function About() {
           <div className="mt-10 space-y-8 max-w-xl">
             {PARAGRAPHS.map((p, i) => (
               <Reveal key={i} delay={i * 60}>
-                <p className="font-jost text-pine/75 text-[15px] md:text-[16px] leading-[1.85]">
+                <p className="font-jost text-pine/80 text-[16px] md:text-[17px] leading-[1.85]">
                   {p}
                 </p>
               </Reveal>

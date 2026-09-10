@@ -33,12 +33,13 @@ export default function Home() {
             <Reveal>
               <p className="eyebrow text-clay mb-4">About</p>
               <h2 className="font-archivo font-extrabold text-forest text-[30px] md:text-[40px] leading-[1.05] tracking-[-0.03em] max-w-lg">
-                One agent, not a team.
+                People Before Profits.
               </h2>
               <p className="font-jost text-pine/75 text-[16px] leading-[1.8] mt-6 max-w-lg">
-                I have worked on almost every kind of residential deal since
-                2018, from first time buyers to boutique project marketing for
-                developers. No handoffs to a junior agent along the way.
+                I&rsquo;ve worked on nearly every kind of residential deal
+                since 2018, from first-time buyers to boutique project
+                marketing for developers. My clients get me directly, every
+                step of the way.
               </p>
               <Link
                 href="/about"
