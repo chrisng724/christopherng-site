@@ -5,11 +5,13 @@ import "@fontsource/jost/300.css";
 import "@fontsource/jost/400.css";
 import "@fontsource/jost/500.css";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Chris Ng PREC | Metro Vancouver Real Estate",
   description:
-    "Independent REALTOR® across six Metro Vancouver markets. Founder, BCNewHomes.ca.",
+    "Independent REALTOR® in Metro Vancouver. Founder, BCNewHomes.ca.",
 };
 
 export default function RootLayout({
@@ -28,7 +30,9 @@ export default function RootLayout({
           } as React.CSSProperties
         }
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

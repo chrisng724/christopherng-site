@@ -9,7 +9,7 @@ export default function PodcastStrip() {
             <div>
               <p className="eyebrow text-clay mb-3">The Real Estate Investment Hub</p>
               <p className="font-archivo font-extrabold text-cream text-xl md:text-2xl leading-snug max-w-lg">
-                A podcast for buying real estate like an investor, co-hosted by Chris.
+                Chris co-hosts a podcast on buying real estate like an investor.
               </p>
             </div>
             <a

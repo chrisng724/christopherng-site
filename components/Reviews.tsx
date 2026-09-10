@@ -3,21 +3,21 @@ import Reveal from "./Reveal";
 const REVIEWS = [
   {
     quote:
-      "Placeholder — pull a real, specific Google review here. Short beats long; specific beats glowing.",
+      "Placeholder. Pull a real, specific Google review here. Short beats long, and specific beats glowing.",
     name: "Client name placeholder",
-    context: "Buyer — Burnaby",
+    context: "Buyer, Burnaby",
   },
   {
     quote:
-      "Placeholder — a seller-side quote pairs well with the buyer one alongside it.",
+      "Placeholder. A seller side quote pairs well with the buyer one next to it.",
     name: "Client name placeholder",
-    context: "Seller — Vancouver West Side",
+    context: "Seller, Vancouver West Side",
   },
   {
     quote:
-      "Placeholder — an investor-client quote reinforces the ROI positioning above.",
+      "Placeholder. An investor client quote backs up the investment positioning above.",
     name: "Client name placeholder",
-    context: "Investor — Richmond",
+    context: "Investor, Richmond",
   },
 ];
 

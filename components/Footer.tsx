@@ -1,5 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 import logo from "@/public/images/logo.png";
+
+const NAV = [
+  { label: "About", href: "/about" },
+  { label: "Invest", href: "/invest" },
+  { label: "Results", href: "/results" },
+  { label: "Contact", href: "/contact" },
+];
 
 export default function Footer() {
   return (
@@ -15,14 +23,14 @@ export default function Footer() {
           </div>
 
           <nav className="grid grid-cols-2 gap-x-10 gap-y-3">
-            {["About", "Invest", "Markets", "Results", "Contact"].map((l) => (
-              <a
-                key={l}
-                href={`#${l.toLowerCase()}`}
+            {NAV.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
                 className="font-jost text-[12px] uppercase tracking-caps text-cream/70 hover:text-cream transition-colors"
               >
-                {l}
-              </a>
+                {l.label}
+              </Link>
             ))}
           </nav>
         </div>

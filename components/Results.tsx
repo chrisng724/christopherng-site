@@ -2,30 +2,30 @@ import Reveal from "./Reveal";
 
 const CASES = [
   {
-    tag: "Placeholder — replace with a real transaction",
-    title: "Coquitlam townhome, first-time buyer",
-    body: "Situation → strategy → outcome, two or three sentences. Keep it specific: what the client was worried about, what we did differently, what happened.",
+    tag: "Placeholder. Replace with a real transaction.",
+    title: "Coquitlam townhome, first time buyer",
+    body: "What the client was worried about, what I did differently, what happened. Two or three sentences, kept specific.",
   },
   {
-    tag: "Placeholder — replace with a real transaction",
+    tag: "Placeholder. Replace with a real transaction.",
     title: "Richmond presale, investor client",
-    body: "Situation → strategy → outcome. This is where the ROI framing earns its keep — name the numbers if the client is comfortable with it.",
+    body: "This is where the ROI framing earns its keep. Name the numbers if the client is comfortable with it.",
   },
   {
-    tag: "Placeholder — replace with a real transaction",
-    title: "Vancouver East, multiple-offer sale",
-    body: "Situation → strategy → outcome. A seller-side story shows negotiation, not just access to listings.",
+    tag: "Placeholder. Replace with a real transaction.",
+    title: "Vancouver East, multiple offer sale",
+    body: "A seller side story that shows negotiation, not just access to listings.",
   },
 ];
 
 export default function Results() {
   return (
-    <section id="results" className="bg-forest py-24 md:py-32">
+    <section className="bg-forest py-24 md:py-32">
       <div className="max-w-content mx-auto px-6 md:px-10">
         <Reveal>
           <p className="eyebrow text-clay mb-4">Results</p>
           <h2 className="font-archivo font-extrabold text-cream text-[32px] md:text-[42px] leading-[1.05] tracking-[-0.03em] max-w-xl">
-            Recent work, in the client&rsquo;s words.
+            A few deals, and how they actually went.
           </h2>
         </Reveal>
 

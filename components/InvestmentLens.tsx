@@ -3,31 +3,31 @@ import Reveal from "./Reveal";
 const PILLARS = [
   {
     title: "Presale strategy",
-    body: "Reading a developer's pricing, deposit structure, and phase release the way BCNewHomes.ca tracks the whole market — not just the unit in front of you.",
+    body: "I read a developer's pricing, deposit structure and phase release the way I track the whole market on BCNewHomes.ca. Not just the unit in front of you.",
   },
   {
-    title: "ROI & cash flow",
-    body: "Rental yield, carrying cost, and realistic appreciation — run before an offer goes in, not after.",
+    title: "ROI and cash flow",
+    body: "Rental yield, carrying cost and realistic appreciation, run before you make an offer. Not after.",
   },
   {
-    title: "Timing & exit",
-    body: "Knowing when a market favours holding versus selling, and saying so plainly, even when it's not the easy answer.",
+    title: "Timing and exit",
+    body: "Knowing when a market favours holding over selling, and saying so plainly, even when it's not the easy answer.",
   },
 ];
 
 export default function InvestmentLens() {
   return (
-    <section id="invest" className="bg-forest py-24 md:py-32">
+    <section className="bg-forest py-24 md:py-32">
       <div className="max-w-content mx-auto px-6 md:px-10">
         <Reveal>
-          <p className="eyebrow text-clay mb-4">The investor&rsquo;s lens</p>
+          <p className="eyebrow text-clay mb-4">How I think about real estate</p>
           <h2 className="font-archivo font-extrabold text-cream text-[32px] md:text-[42px] leading-[1.05] tracking-[-0.03em] max-w-2xl">
-            Real estate is a home. It&rsquo;s also a number.
+            A home is never just a home.
           </h2>
           <p className="font-jost text-cream/75 text-[16px] md:text-[17px] leading-[1.8] mt-6 max-w-2xl">
-            Every client gets the same rigour I use building BCNewHomes.ca&rsquo;s
-            presale data — whether they're buying a first condo or building a
-            portfolio.
+            I built BCNewHomes.ca to track the presale market the way an
+            investor would. Every client of mine gets that same rigour, whether
+            they are buying a first condo or building a portfolio.
           </p>
         </Reveal>
 

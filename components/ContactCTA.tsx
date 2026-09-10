@@ -10,7 +10,7 @@ export default function ContactCTA() {
             Let&rsquo;s talk about your next move.
           </h2>
           <p className="font-jost text-pine/70 text-[16px] md:text-[17px] mt-6 max-w-md mx-auto leading-relaxed">
-            Buying, selling, or just running the numbers on an idea — reach out
+            Buying, selling, or just running the numbers on an idea. Reach out
             directly.
           </p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
