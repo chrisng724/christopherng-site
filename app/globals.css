@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #f2ece0;
+    color: #0f1d17;
+  }
+}
+
+@layer components {
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .eyebrow {
+    @apply font-jost text-[11px] uppercase tracking-caps text-clay;
+  }
+
+  .photo-placeholder {
+    @apply flex items-center justify-center bg-pine/90 text-cream/50 font-jost text-xs uppercase tracking-caps text-center px-6;
+  }
+}
