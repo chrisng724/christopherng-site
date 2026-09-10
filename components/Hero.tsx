@@ -1,11 +1,18 @@
+import Image from "next/image";
+import heroPhoto from "@/public/images/hero-interior.png";
+
 export default function Hero() {
   return (
     <section className="relative h-[92vh] min-h-[640px] w-full bg-forest overflow-hidden">
-      {/* photo placeholder — swap for real full-bleed photography of Chris or a signature listing */}
-      <div className="absolute inset-0 bg-pine/60" />
-      <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8 font-jost text-[10px] uppercase tracking-caps text-cream/40 text-right max-w-[220px]">
-        Photo placeholder — full-bleed portrait or signature listing
-      </div>
+      <Image
+        src={heroPhoto}
+        alt="A warm, full-service interior — the kind of home Chris helps clients find"
+        fill
+        priority
+        className="object-cover"
+      />
+      {/* flat scrim for text legibility, per brand guide: flat colour only, no gradients */}
+      <div className="absolute inset-0 bg-pine/70" />
 
       <div className="relative z-10 h-full max-w-content mx-auto px-6 md:px-10 flex flex-col justify-end pb-20 md:pb-28">
         <p className="eyebrow text-cream/80 mb-5">Metro Vancouver Real Estate</p>

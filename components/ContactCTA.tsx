@@ -24,7 +24,7 @@ export default function ContactCTA() {
               href="tel:+17788612129"
               className="font-jost text-[12px] uppercase tracking-caps border border-forest/40 text-forest px-8 py-4 hover:border-forest transition-colors"
             >
-              604&nbsp;·&nbsp;PLACEHOLDER
+              (778) 861-2129
             </a>
           </div>
         </Reveal>

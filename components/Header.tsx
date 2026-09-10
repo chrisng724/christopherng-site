@@ -1,3 +1,6 @@
+import Image from "next/image";
+import logo from "@/public/images/logo.png";
+
 const NAV = [
   { label: "About", href: "#about" },
   { label: "Invest", href: "#invest" },
@@ -10,14 +13,13 @@ export default function Header() {
   return (
     <header className="absolute top-0 left-0 right-0 z-30">
       <div className="max-w-content mx-auto flex items-center justify-between px-6 md:px-10 py-6">
-        <a href="#" className="font-archivo font-extrabold text-cream leading-[0.85] text-lg tracking-[-0.04em]">
-          <span className="block">CHRIS</span>
-          <span className="inline-flex items-center gap-2">
-            NG{" "}
-            <span className="border border-cream/70 text-[9px] tracking-caps font-jost font-normal px-1.5 py-0.5">
-              PREC
-            </span>
-          </span>
+        <a href="#" className="block h-10 w-auto">
+          <Image
+            src={logo}
+            alt="Chris Ng PREC"
+            className="h-10 w-auto"
+            priority
+          />
         </a>
         <nav className="hidden md:flex items-center gap-8">
           {NAV.map((item) => (
