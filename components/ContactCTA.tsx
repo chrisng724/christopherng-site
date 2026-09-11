@@ -15,7 +15,7 @@ export default function ContactCTA() {
           </p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
             <a
-              href="mailto:chris@christopherng.ca"
+              href="mailto:chris@vancouverinsider.ca"
               className="btn font-jost text-[12px] uppercase tracking-caps bg-forest text-cream px-8 py-4 hover:bg-clay"
             >
               Email Chris

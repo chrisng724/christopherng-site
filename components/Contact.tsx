@@ -12,7 +12,7 @@ const REASONS = [
 
 const PHONE = "+17788612129";
 const PHONE_DISPLAY = "(778) 861-2129";
-const EMAIL = "chris@christopherng.ca";
+const EMAIL = "chris@vancouverinsider.ca";
 const INSTAGRAM = "https://instagram.com/chrisngprec";
 const ADDRESS_LINES = ["#500 - 666 Burrard Street", "Vancouver, British Columbia V6C 3P6"];
 const MAP_SRC =
@@ -198,7 +198,7 @@ export default function Contact() {
                       rows={5}
                       value={form.message}
                       onChange={(e) => update("message", e.target.value)}
-                      className={inputClass}
+                      className={`${inputClass} resize-y`}
                     />
                   </Field>
                   <button
