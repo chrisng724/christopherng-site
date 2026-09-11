@@ -54,42 +54,47 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Invest teaser */}
+      {/* Invest teaser — centered statement block, deliberately distinct from the About split */}
       <section className="bg-forest py-24 md:py-32">
         <div className="max-w-content mx-auto px-6 md:px-10">
           <Reveal>
-            <p className="eyebrow text-clay mb-4">How I think about real estate</p>
-            <h2 className="font-archivo font-extrabold text-cream text-[30px] md:text-[40px] leading-[1.05] tracking-[-0.03em] max-w-xl">
-              A home is never just a home.
-            </h2>
-            <p className="font-jost text-cream/75 text-[16px] leading-[1.8] mt-6 max-w-xl">
-              I built BCNewHomes.ca to track the presale market the way an
-              investor would. Every client of mine gets that same rigour.
-            </p>
-            <Link
-              href="/invest"
-              className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-cream text-cream pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
-            >
-              See how I approach investment
-            </Link>
+            <div className="max-w-2xl mx-auto text-center">
+              <p className="eyebrow text-clay mb-4">How I think about real estate</p>
+              <h2 className="font-archivo font-extrabold text-cream text-[30px] md:text-[40px] leading-[1.05] tracking-[-0.03em]">
+                A home is never just a home.
+              </h2>
+              <p className="font-jost text-cream/75 text-[16px] leading-[1.8] mt-6">
+                I built BCNewHomes.ca to track the presale market the way an
+                investor would. Every client of mine gets that same rigour.
+              </p>
+              <Link
+                href="/invest"
+                className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-cream text-cream pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
+              >
+                See how I approach investment
+              </Link>
+            </div>
           </Reveal>
         </div>
       </section>
 
-      {/* Results teaser */}
-      <section className="bg-cream py-24 md:py-32">
+      {/* Results teaser — same centered treatment, and no bottom padding so it flows
+          straight into Reviews below (same bg-cream) instead of stacking two full paddings */}
+      <section className="bg-cream pt-24 md:pt-32">
         <div className="max-w-content mx-auto px-6 md:px-10">
           <Reveal>
-            <p className="eyebrow text-clay mb-4">Results</p>
-            <h2 className="font-archivo font-extrabold text-forest text-[30px] md:text-[40px] leading-[1.05] tracking-[-0.03em] max-w-xl">
-              A few deals, and how they actually went.
-            </h2>
-            <Link
-              href="/results"
-              className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-forest text-forest pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
-            >
-              See recent results
-            </Link>
+            <div className="max-w-2xl mx-auto text-center">
+              <p className="eyebrow text-clay mb-4">Results</p>
+              <h2 className="font-archivo font-extrabold text-forest text-[30px] md:text-[40px] leading-[1.05] tracking-[-0.03em]">
+                A few deals, and how they actually went.
+              </h2>
+              <Link
+                href="/results"
+                className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-forest text-forest pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
+              >
+                See recent results
+              </Link>
+            </div>
           </Reveal>
         </div>
       </section>
