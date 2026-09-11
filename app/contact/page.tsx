@@ -1,4 +1,4 @@
-import ContactCTA from "@/components/ContactCTA";
+import Contact from "@/components/Contact";
 
 export const metadata = {
   title: "Contact | Chris Ng PREC",
@@ -9,7 +9,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <main>
-      <ContactCTA />
+      <Contact />
     </main>
   );
 }
