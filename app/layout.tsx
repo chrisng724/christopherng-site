@@ -7,6 +7,7 @@ import "@fontsource/jost/500.css";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PageShell from "@/components/PageShell";
 
 export const metadata: Metadata = {
   title: "Chris Ng PREC | Metro Vancouver Real Estate",
@@ -31,7 +32,7 @@ export default function RootLayout({
         }
       >
         <Header />
-        {children}
+        <PageShell>{children}</PageShell>
         <Footer />
       </body>
     </html>

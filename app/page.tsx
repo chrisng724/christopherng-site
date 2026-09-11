@@ -37,9 +37,11 @@ export default function Home() {
               </h2>
               <p className="font-jost text-pine/75 text-[16px] leading-[1.8] mt-6 max-w-lg">
                 I&rsquo;ve worked on nearly every kind of residential deal
-                since 2018, from first-time buyers to boutique project
-                marketing for developers. My clients get me directly, every
-                step of the way.
+                since 2018, founding BCNewHomes.ca and partnering at
+                Westbridge Marketing along the way. Every client still gets
+                me directly: a sharp negotiator who reads the market closely
+                and markets every listing like it&rsquo;s the only one I
+                have.
               </p>
               <Link
                 href="/about"

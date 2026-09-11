@@ -6,27 +6,31 @@ const STATS = ["Since 2018", "Award-Winning Advisor", "REAL Broker"];
 
 const PARAGRAPHS = [
   <>
-    As an award-winning real estate advisor at REAL Broker and co-host of{" "}
+    I&rsquo;m an award-winning advisor at REAL Broker and co-host of{" "}
     <span className="text-forest">The Real Estate Investment Hub</span>{" "}
-    podcast, my career in real estate began in 2018. Since then, I have been
-    involved in nearly every type of residential transaction. Whether it&rsquo;s
-    guiding first-time home buyers, helping investors choose the right
-    presales, marketing and selling luxury properties, or providing boutique
-    project marketing to developers, my extensive experience allows me to
-    offer expert advisory services to my clients.
+    podcast. My career started in 2018, and I&rsquo;ve handled nearly every
+    kind of residential deal since: first-time buyers, investors picking the
+    right presale, luxury listings, and developers who need boutique project
+    marketing. That last piece is also why I&rsquo;m a partner at Westbridge
+    Marketing and the founder of BCNewHomes.ca, where I track the presale
+    market the way an investor would.
   </>,
   <>
-    My approach to working with buyers, sellers, builders, and investors is
-    rooted in transparency, communication, and a deep understanding of the
-    real estate market in Vancouver, BC. Keeping my clients informed
-    throughout the entire buying or selling process is my top priority,
-    ensuring they have all the information they need to make well-informed
-    decisions and optimize their hard-earned capital.
+    Clients tell me the same thing: I actually listen. That doesn&rsquo;t
+    mean I back off at the negotiating table. I read contracts line by line,
+    track pricing block by block, and use marketing and technology most
+    agents in this city still aren&rsquo;t using. The agent who moves
+    fastest and markets smartest usually wins the deal, and that&rsquo;s the
+    agent I try to be for you.
   </>,
   <>
-    Whether you&rsquo;re a seasoned investor or just starting out, I am
-    committed to helping you navigate the complexities of the real estate
-    market and achieve success.
+    My approach is rooted in transparency and communication. I keep my
+    clients informed at every stage of a deal, so they always have what they
+    need to make a smart call with their own capital.
+  </>,
+  <>
+    Whether you&rsquo;re a seasoned investor or buying your first home,
+    I&rsquo;m committed to helping you get this right.
   </>,
 ];
 
@@ -69,10 +73,9 @@ export default function About() {
 
           <Reveal delay={80}>
             <p className="font-jost text-pine/80 text-[16px] md:text-[17px] leading-[1.85] mt-8 max-w-xl">
-              The essence of my business is captured in this one simple
-              phrase: making the buying, selling, and investing process as
-              easy and seamless as possible for my clients, my people. This
-              mission drives everything I do.
+              The heart of my business comes down to one thing: making
+              buying, selling and investing feel easy for my clients, my
+              people. That drives everything I do.
             </p>
           </Reveal>
 
@@ -86,8 +89,20 @@ export default function About() {
             ))}
           </div>
 
+          <Reveal delay={200}>
+            <div className="mt-11 border-t border-forest/15 pt-9 max-w-xl">
+              <p className="font-jost text-[11px] uppercase tracking-caps text-forest/60 mb-3">
+                Outside of Work
+              </p>
+              <p className="font-jost text-pine/80 text-[16px] md:text-[17px] leading-[1.85]">
+                It&rsquo;s my wife, our dogs and a good meal. I run, cook and
+                stay active most days of the week.
+              </p>
+            </div>
+          </Reveal>
+
           <Reveal delay={120}>
-            <div className="mt-11 border-t border-forest/15 pt-7 flex flex-wrap gap-x-8 gap-y-3">
+            <div className="mt-9 border-t border-forest/15 pt-7 flex flex-wrap gap-x-8 gap-y-3">
               <a
                 href="tel:+17788612129"
                 className="font-archivo font-extrabold text-forest text-base hover:text-clay transition-colors"

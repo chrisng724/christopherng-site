@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import logo from "@/public/images/logo.png";
 
 const NAV = [
@@ -14,10 +15,30 @@ const NAV = [
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const [solid, setSolid] = useState(!isHome);
+
+  useEffect(() => {
+    if (!isHome) {
+      setSolid(true);
+      return;
+    }
+    const onScroll = () => setSolid(window.scrollY > 60);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [isHome]);
 
   return (
-    <header className="sticky top-0 z-50 bg-forest border-b border-cream/10">
-      <div className="max-w-content mx-auto flex items-center justify-between px-6 md:px-10 py-5">
+    <header
+      className={`fixed top-0 inset-x-0 z-50 transition-colors duration-300 ${
+        solid
+          ? "bg-forest border-b border-cream/10"
+          : "bg-transparent border-b border-transparent"
+      }`}
+    >
+      <div className="w-full max-w-[1560px] mx-auto flex items-center justify-between px-6 md:px-14 py-5">
         <Link href="/" className="block h-12 w-auto" onClick={() => setOpen(false)}>
           <Image
             src={logo}
@@ -26,7 +47,7 @@ export default function Header() {
             priority
           />
         </Link>
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-12">
           {NAV.map((item) => (
             <Link
               key={item.href}
@@ -72,7 +93,7 @@ export default function Header() {
       <div
         className={`md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${
           open ? "max-h-96" : "max-h-0"
-        }`}
+        } ${solid ? "" : "bg-pine/95"}`}
       >
         <nav className="flex flex-col px-6 pb-6 pt-1 border-t border-cream/10">
           {NAV.map((item) => (

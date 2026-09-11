@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import heroPhoto from "@/public/images/hero-interior.png";
+import heroPhoto from "@/public/images/hero-interior-2.jpg";
 
 export default function Hero() {
   return (
-    <section className="relative h-[88vh] min-h-[600px] w-full bg-forest overflow-hidden">
+    <section className="relative h-screen min-h-[640px] w-full bg-forest overflow-hidden">
       <Image
         src={heroPhoto}
         alt="A warm, well-kept living room"
