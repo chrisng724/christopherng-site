@@ -10,6 +10,7 @@ const NAV = [
   { label: "About", href: "/about" },
   { label: "Invest", href: "/invest" },
   { label: "Results", href: "/results" },
+  { label: "Get Started", href: "/get-started" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -59,7 +60,7 @@ export default function Header() {
           ))}
         </nav>
         <Link
-          href="/contact"
+          href="/get-started"
           className="btn hidden md:inline-flex font-jost text-[12px] uppercase tracking-caps border border-cream/60 text-cream px-6 py-2.5 hover:bg-cream hover:text-forest hover:border-cream"
         >
           Start a conversation
@@ -107,7 +108,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="/contact"
+            href="/get-started"
             onClick={() => setOpen(false)}
             className="btn mt-5 text-center font-jost text-[12px] uppercase tracking-caps border border-cream/60 text-cream px-5 py-3 hover:bg-cream hover:text-forest hover:border-cream"
           >

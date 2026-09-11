@@ -69,6 +69,12 @@ export default function Contact() {
             There&rsquo;s no team here, so whatever you send comes straight
             to me.
           </p>
+          <a
+            href="/get-started"
+            className="inline-block mt-5 font-jost text-[13px] uppercase tracking-caps border-b border-forest text-forest pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
+          >
+            Already know what you need? Start here instead
+          </a>
         </Reveal>
 
         <div className="grid md:grid-cols-12 gap-12 md:gap-10 mt-16">

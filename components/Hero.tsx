@@ -28,7 +28,7 @@ export default function Hero() {
         </p>
         <div className="mt-9 flex flex-wrap gap-4">
           <Link
-            href="/contact"
+            href="/get-started"
             className="btn font-jost text-[12px] uppercase tracking-caps bg-cream text-forest px-7 py-3.5 hover:bg-clay hover:text-cream"
           >
             Start a conversation
