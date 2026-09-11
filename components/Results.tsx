@@ -18,14 +18,14 @@ const CASES = [
   },
   {
     tag: "Investment Strategy",
-    title: "Four investors, one overlooked project",
+    title: "Five investors, one overlooked project",
     short:
-      "Four clients were eyeing separate presale condos across the Fraser Valley and Burnaby, all priced above resale value. Instead, we found a project on the outskirts of Richmond priced under market, and all four bought there.",
+      "Five clients were eyeing separate presale condos across the Fraser Valley and Burnaby, all priced above resale value. Instead, we found a project on the outskirts of Richmond priced under market, and all five bought there.",
     full: [
-      "In the same year, four separate clients were all looking at presale condos across the Fraser Valley and Burnaby, priced well above what comparable resale units were selling for at the time. Instead of chasing those listings, we found a project on the outskirts of Richmond, priced meaningfully below market, and all four clients purchased there.",
-      "Before their units closed, the presale market corrected hard. Some buyers elsewhere lost their entire deposits as prices fell out from under their contracts. Because these four had bought below market to begin with, they closed with their equity intact instead of a loss.",
+      "In the same year, five separate clients were all looking at presale condos across the Fraser Valley and Burnaby, priced well above what comparable resale units were selling for at the time. Instead of chasing those listings, we found a project on the outskirts of Richmond, priced meaningfully below market, and all five clients purchased there.",
+      "Before their units closed, the presale market corrected hard. Some buyers elsewhere lost their entire deposits as prices fell out from under their contracts. Because these five had bought below market to begin with, they closed with their equity intact instead of a loss.",
     ],
-    name: "Four clients",
+    name: "Five clients",
     context: "Investors, Richmond presale",
   },
   {

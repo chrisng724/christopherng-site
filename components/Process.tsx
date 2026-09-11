@@ -104,7 +104,7 @@ const STEPS: Record<Role, Step[]> = {
       title: "Vetting the market and the project",
       body: "I read a developer's pricing, deposit structure, and phase release against the entire market, the same way I track it every day on BCNewHomes.ca. That way, you're never judging a project on its own without knowing what else is out there.",
       proof: {
-        text: "See how this played out for four investors in Richmond",
+        text: "See how this played out for five investors in Richmond",
         href: "/results",
       },
     },
