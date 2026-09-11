@@ -121,7 +121,7 @@ export default function Results() {
         <Reveal>
           <p className="eyebrow text-clay mb-4">Results</p>
           <h2 className="font-archivo font-extrabold text-cream text-[32px] md:text-[42px] leading-[1.05] tracking-[-0.03em] max-w-xl">
-            A few deals, and how they actually went.
+            A few clients, and how it actually went for them.
           </h2>
         </Reveal>
 

@@ -36,8 +36,8 @@ export default function Home() {
                 People Before Profits.
               </h2>
               <p className="font-jost text-pine/75 text-[16px] leading-[1.8] mt-6 max-w-lg">
-                I&rsquo;ve worked on nearly every kind of residential deal
-                since 2018, founding BCNewHomes.ca and partnering at
+                I&rsquo;ve worked on nearly every kind of residential
+                transaction since 2018, founding BCNewHomes.ca and partnering at
                 Westbridge Marketing along the way. Every client still gets
                 me directly: a sharp negotiator who reads the market closely
                 and markets every listing like it&rsquo;s the only one I
@@ -60,16 +60,15 @@ export default function Home() {
           <Reveal>
             <div className="max-w-2xl mx-auto text-center">
               <p className="eyebrow text-clay mb-4">How I Work</p>
-              <h2 className="font-archivo font-extrabold text-cream text-[30px] md:text-[40px] leading-[1.15] tracking-[-0.03em]">
-                I set the direction and stay close enough that you&rsquo;re
-                never left guessing what happens next.
+              <h2 className="font-archivo font-extrabold text-cream text-[30px] md:text-[40px] leading-[1.1] tracking-[-0.03em]">
+                I set the direction and stay close, so you&rsquo;re never
+                left guessing what&rsquo;s next.
               </h2>
               <p className="font-jost text-cream/75 text-[16px] leading-[1.8] mt-6">
-                Buying, selling, or investing, there are moments a deal
-                genuinely needs a specialist, a lender, an inspector, a
-                lawyer, and I bring in people I trust for exactly those
-                moments. What stays the same is that I&rsquo;m the one
-                setting the strategy and the one you&rsquo;re calling, start
+                Buying, selling, or investing, some moments call for a
+                specialist, a lender, an inspector, a lawyer, and I bring in
+                people I trust for those. What stays the same is that
+                I&rsquo;m setting the strategy and taking your calls, start
                 to finish.
               </p>
               <Link
@@ -91,7 +90,7 @@ export default function Home() {
             <div className="max-w-2xl mx-auto text-center">
               <p className="eyebrow text-clay mb-4">Results</p>
               <h2 className="font-archivo font-extrabold text-forest text-[30px] md:text-[40px] leading-[1.05] tracking-[-0.03em]">
-                A few deals, and how they actually went.
+                A few clients, and how it actually went for them.
               </h2>
               <Link
                 href="/results"

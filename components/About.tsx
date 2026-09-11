@@ -9,7 +9,7 @@ const PARAGRAPHS = [
     I&rsquo;m an award-winning advisor at REAL Broker and co-host of{" "}
     <span className="text-forest">The Real Estate Investment Hub</span>{" "}
     podcast. My career started in 2018, and I&rsquo;ve handled nearly every
-    kind of residential deal since: first-time buyers, investors picking the
+    kind of residential transaction since: first-time buyers, investors picking the
     right presale, luxury listings, and developers who need boutique project
     marketing. That last piece is also why I&rsquo;m a partner at Westbridge
     Marketing and the founder of BCNewHomes.ca, where I track the presale
@@ -20,13 +20,13 @@ const PARAGRAPHS = [
     mean I back off at the negotiating table. I read contracts line by line,
     track pricing block by block, and use marketing and technology most
     agents in this city still aren&rsquo;t using. The agent who moves
-    fastest and markets smartest usually wins the deal, and that&rsquo;s the
-    agent I try to be for you.
+    fastest and markets smartest usually comes out ahead, and that&rsquo;s
+    the agent I try to be for you.
   </>,
   <>
     My approach is rooted in transparency and communication. I keep my
-    clients informed at every stage of a deal, so they always have what they
-    need to make a smart call with their own capital.
+    clients informed at every step of the process, so they always have what
+    they need to make a smart call with their own capital.
   </>,
   <>
     Whether you&rsquo;re a seasoned investor or buying your first home,

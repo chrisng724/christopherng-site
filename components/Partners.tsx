@@ -70,10 +70,10 @@ export default function Partners() {
               People I actually vouch for.
             </h2>
             <p className="font-jost text-pine/75 text-[16px] md:text-[17px] leading-[1.8] mt-6">
-              I don&rsquo;t have a team of employees, but I do have a small
-              group of specialists I bring in at the right moments, financing,
-              legal, inspections, and more. These are the ones I trust with my
-              own clients.
+              There&rsquo;s more to buying or selling than the real estate
+              itself, financing, legal, inspections, staging, and more.
+              These are the specialists I actually trust, and the ones I
+              bring in for my own clients.
             </p>
           </div>
         </Reveal>
