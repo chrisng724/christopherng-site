@@ -2,7 +2,7 @@ import Image from "next/image";
 import Reveal from "./Reveal";
 import bcnewhomes from "@/public/images/partner-bcnewhomes.webp";
 import roomvu from "@/public/images/partner-roomvu.webp";
-import waterview from "@/public/images/partner-waterview.webp";
+import waterview from "@/public/images/partner-waterview.png";
 import propertyspark from "@/public/images/partner-propertyspark.webp";
 
 const LOGOS = [

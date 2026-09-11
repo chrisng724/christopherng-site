@@ -22,8 +22,8 @@ export default function Hero() {
         </h1>
         <p className="font-jost text-cream/85 text-base md:text-lg mt-6 max-w-xl leading-relaxed">
           I work with buyers, sellers and investors across Metro Vancouver.
-          There&rsquo;s no team behind me, so every client gets my full
-          attention, from the first call to closing day.
+          You get my full attention directly, from the first call to
+          closing day.
         </p>
         <div className="mt-9 flex flex-wrap gap-4">
           <Link
