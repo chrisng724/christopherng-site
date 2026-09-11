@@ -8,9 +8,9 @@ import logo from "@/public/images/logo.png";
 
 const NAV = [
   { label: "About", href: "/about" },
-  { label: "Invest", href: "/invest" },
+  { label: "How I Work", href: "/process" },
   { label: "Results", href: "/results" },
-  { label: "Get Started", href: "/get-started" },
+  { label: "Partners", href: "/partners" },
   { label: "Contact", href: "/contact" },
 ];
 

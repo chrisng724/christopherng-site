@@ -54,24 +54,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Invest teaser — centered statement block, deliberately distinct from the About split */}
+      {/* Process teaser — centered statement block, deliberately distinct from the About split */}
       <section className="bg-forest py-24 md:py-32">
         <div className="max-w-content mx-auto px-6 md:px-10">
           <Reveal>
             <div className="max-w-2xl mx-auto text-center">
-              <p className="eyebrow text-clay mb-4">How I think about real estate</p>
+              <p className="eyebrow text-clay mb-4">How I Work</p>
               <h2 className="font-archivo font-extrabold text-cream text-[30px] md:text-[40px] leading-[1.05] tracking-[-0.03em]">
-                A home is never just a home.
+                I run the strategy. You&rsquo;re never guessing what&rsquo;s next.
               </h2>
               <p className="font-jost text-cream/75 text-[16px] leading-[1.8] mt-6">
-                I built BCNewHomes.ca to track the presale market the way an
-                investor would. Every client of mine gets that same rigour.
+                Buying, selling, or investing, I bring in the right
+                specialists when a deal needs them, but I&rsquo;m the one
+                running the strategy and the one you call throughout.
               </p>
               <Link
-                href="/invest"
+                href="/process"
                 className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-cream text-cream pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
               >
-                See how I approach investment
+                See how I work
               </Link>
             </div>
           </Reveal>
