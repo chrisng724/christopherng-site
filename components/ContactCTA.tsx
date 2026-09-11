@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Reveal from "./Reveal";
 
 export default function ContactCTA() {
@@ -10,22 +11,16 @@ export default function ContactCTA() {
             Let&rsquo;s talk about your next move.
           </h2>
           <p className="font-jost text-pine/70 text-[16px] md:text-[17px] mt-6 max-w-md mx-auto leading-relaxed">
-            Buying, selling, or just running the numbers on an idea. Reach out
-            directly.
+            Buying, selling, or just running the numbers on an idea, let&rsquo;s
+            talk it through.
           </p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
-            <a
-              href="mailto:chris@vancouverinsider.ca"
+            <Link
+              href="/contact"
               className="btn font-jost text-[12px] uppercase tracking-caps bg-forest text-cream px-8 py-4 hover:bg-clay"
             >
-              Email Chris
-            </a>
-            <a
-              href="tel:+17788612129"
-              className="btn font-jost text-[12px] uppercase tracking-caps border border-forest/40 text-forest px-8 py-4 hover:bg-forest hover:text-cream hover:border-forest"
-            >
-              (778) 861-2129
-            </a>
+              Get in Touch
+            </Link>
           </div>
         </Reveal>
       </div>
