@@ -13,7 +13,10 @@ type Category = {
 const CATEGORIES: Category[] = [
   {
     category: "Mortgage Broker",
-    partners: [{ name: "Vince Tong", company: "Signature Mortgages" }],
+    partners: [
+      { name: "Vince Tong", company: "Signature Mortgages" },
+      { name: "Alex McFadyen", company: "Flow Mortgage Co" },
+    ],
   },
   {
     category: "Lawyer / Notary",
@@ -32,7 +35,10 @@ const CATEGORIES: Category[] = [
   },
   {
     category: "Photographer / Videographer",
-    partners: [{ name: "Michael Gatsi", company: "Be Clear Media" }],
+    partners: [
+      { name: "Michael Gatsi", company: "Be Clear Media" },
+      { name: "BC Floor Plans" },
+    ],
   },
 ];
 
