@@ -32,9 +32,9 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-colors duration-300 ${
+      className={`fixed top-0 inset-x-0 z-50 transition-colors duration-500 ease-premium ${
         solid
-          ? "bg-forest border-b border-cream/10"
+          ? "bg-forest border-b border-cream/15"
           : "bg-transparent border-b border-transparent"
       }`}
     >
@@ -52,7 +52,7 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="font-jost text-[12px] uppercase tracking-caps text-cream/85 hover:text-cream transition-colors"
+              className="font-jost text-[12px] uppercase tracking-caps text-cream/85 hover:text-cream transition-colors duration-300 ease-premium"
             >
               {item.label}
             </Link>
@@ -60,7 +60,7 @@ export default function Header() {
         </nav>
         <Link
           href="/contact"
-          className="hidden md:inline-block font-jost text-[12px] uppercase tracking-caps border border-cream/60 text-cream px-5 py-2.5 hover:bg-cream hover:text-forest transition-colors"
+          className="btn hidden md:inline-flex font-jost text-[12px] uppercase tracking-caps border border-cream/60 text-cream px-6 py-2.5 hover:bg-cream hover:text-forest hover:border-cream"
         >
           Start a conversation
         </Link>
@@ -73,17 +73,17 @@ export default function Header() {
           className="md:hidden relative h-8 w-8 flex flex-col items-center justify-center gap-[6px]"
         >
           <span
-            className={`block h-[1.5px] w-6 bg-cream transition-transform duration-300 ${
+            className={`block h-[1.5px] w-6 bg-cream transition-transform duration-300 ease-premium ${
               open ? "translate-y-[7.5px] rotate-45" : ""
             }`}
           />
           <span
-            className={`block h-[1.5px] w-6 bg-cream transition-opacity duration-300 ${
+            className={`block h-[1.5px] w-6 bg-cream transition-opacity duration-300 ease-premium ${
               open ? "opacity-0" : "opacity-100"
             }`}
           />
           <span
-            className={`block h-[1.5px] w-6 bg-cream transition-transform duration-300 ${
+            className={`block h-[1.5px] w-6 bg-cream transition-transform duration-300 ease-premium ${
               open ? "-translate-y-[7.5px] -rotate-45" : ""
             }`}
           />
@@ -91,17 +91,17 @@ export default function Header() {
       </div>
 
       <div
-        className={`md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${
-          open ? "max-h-96" : "max-h-0"
+        className={`md:hidden overflow-hidden transition-all duration-[400ms] ease-premium ${
+          open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         } ${solid ? "" : "bg-pine/95"}`}
       >
-        <nav className="flex flex-col px-6 pb-6 pt-1 border-t border-cream/10">
+        <nav className="flex flex-col px-6 pb-6 pt-1 border-t border-cream/15">
           {NAV.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="font-jost text-[13px] uppercase tracking-caps text-cream/85 hover:text-cream transition-colors py-3 border-b border-cream/10"
+              className="font-jost text-[13px] uppercase tracking-caps text-cream/85 hover:text-cream transition-colors duration-300 ease-premium py-3 border-b border-cream/15"
             >
               {item.label}
             </Link>
@@ -109,7 +109,7 @@ export default function Header() {
           <Link
             href="/contact"
             onClick={() => setOpen(false)}
-            className="mt-5 text-center font-jost text-[12px] uppercase tracking-caps border border-cream/60 text-cream px-5 py-3 hover:bg-cream hover:text-forest transition-colors"
+            className="btn mt-5 text-center font-jost text-[12px] uppercase tracking-caps border border-cream/60 text-cream px-5 py-3 hover:bg-cream hover:text-forest hover:border-cream"
           >
             Start a conversation
           </Link>

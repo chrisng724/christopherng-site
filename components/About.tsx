@@ -41,7 +41,7 @@ export default function About() {
         {/* sticky photo column — stays put while the story scrolls, Hudson-style */}
         <div className="md:col-span-5 md:sticky md:top-24 self-start">
           <Reveal>
-            <div className="aspect-[4/5] relative overflow-hidden">
+            <div className="aspect-[4/5] relative overflow-hidden rounded-2xl">
               <Image
                 src={aboutPhoto}
                 alt="Chris Ng"
@@ -91,9 +91,7 @@ export default function About() {
 
           <Reveal delay={200}>
             <div className="mt-11 border-t border-forest/15 pt-9 max-w-xl">
-              <p className="font-jost text-[11px] uppercase tracking-caps text-forest/60 mb-3">
-                Outside of Work
-              </p>
+              <p className="eyebrow text-clay mb-3">Outside of Work</p>
               <p className="font-jost text-pine/80 text-[16px] md:text-[17px] leading-[1.85]">
                 It&rsquo;s my wife, our dogs and a good meal. I run, cook and
                 stay active most days of the week.
@@ -105,7 +103,7 @@ export default function About() {
             <div className="mt-9 border-t border-forest/15 pt-7 flex flex-wrap gap-x-8 gap-y-3">
               <a
                 href="tel:+17788612129"
-                className="font-archivo font-extrabold text-forest text-base hover:text-clay transition-colors"
+                className="font-archivo font-extrabold text-forest text-base hover:text-clay transition-colors duration-300 ease-premium"
               >
                 (778) 861-2129
               </a>
@@ -113,7 +111,7 @@ export default function About() {
                 href="https://instagram.com/chrisngprec"
                 target="_blank"
                 rel="noreferrer"
-                className="font-archivo font-extrabold text-forest text-base hover:text-clay transition-colors"
+                className="font-archivo font-extrabold text-forest text-base hover:text-clay transition-colors duration-300 ease-premium"
               >
                 @chrisngprec
               </a>

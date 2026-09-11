@@ -34,7 +34,7 @@ export default function InvestmentLens() {
         <div className="grid md:grid-cols-3 gap-8 md:gap-10 mt-16">
           {PILLARS.map((p, i) => (
             <Reveal key={p.title} delay={i * 100}>
-              <div className="border-t border-cream/25 pt-6">
+              <div className="border-t border-cream/15 pt-6">
                 <h3 className="font-archivo font-extrabold text-cream text-lg">
                   {p.title}
                 </h3>

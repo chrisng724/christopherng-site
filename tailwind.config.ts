@@ -21,6 +21,9 @@ const config: Config = {
       maxWidth: {
         content: "1200px",
       },
+      transitionTimingFunction: {
+        premium: "cubic-bezier(0.16, 1, 0.3, 1)",
+      },
     },
   },
   plugins: [],

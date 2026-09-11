@@ -10,6 +10,7 @@ export default function Hero() {
         alt="A warm, well-kept living room"
         fill
         priority
+        sizes="100vw"
         className="object-cover"
       />
       {/* flat scrim for text legibility, per brand guide: flat colour only, no gradients */}
@@ -28,13 +29,13 @@ export default function Hero() {
         <div className="mt-9 flex flex-wrap gap-4">
           <Link
             href="/contact"
-            className="font-jost text-[12px] uppercase tracking-caps bg-cream text-forest px-7 py-3.5 hover:bg-clay hover:text-cream transition-colors"
+            className="btn font-jost text-[12px] uppercase tracking-caps bg-cream text-forest px-7 py-3.5 hover:bg-clay hover:text-cream"
           >
             Start a conversation
           </Link>
           <Link
             href="/about"
-            className="font-jost text-[12px] uppercase tracking-caps border border-cream/50 text-cream px-7 py-3.5 hover:border-cream transition-colors"
+            className="btn font-jost text-[12px] uppercase tracking-caps border border-cream/50 text-cream px-7 py-3.5 hover:bg-cream hover:text-forest hover:border-cream"
           >
             About Chris
           </Link>

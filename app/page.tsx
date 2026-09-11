@@ -18,7 +18,7 @@ export default function Home() {
         <div className="max-w-content mx-auto px-6 md:px-10 grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-5">
             <Reveal>
-              <div className="aspect-[4/5] relative overflow-hidden">
+              <div className="aspect-[4/5] relative overflow-hidden rounded-2xl">
                 <Image
                   src={aboutPhoto}
                   alt="Chris Ng"
@@ -45,7 +45,7 @@ export default function Home() {
               </p>
               <Link
                 href="/about"
-                className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-forest text-forest pb-1 hover:text-clay hover:border-clay transition-colors"
+                className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-forest text-forest pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
               >
                 Read Chris&rsquo;s story
               </Link>
@@ -68,7 +68,7 @@ export default function Home() {
             </p>
             <Link
               href="/invest"
-              className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-cream text-cream pb-1 hover:text-clay hover:border-clay transition-colors"
+              className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-cream text-cream pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
             >
               See how I approach investment
             </Link>
@@ -86,7 +86,7 @@ export default function Home() {
             </h2>
             <Link
               href="/results"
-              className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-forest text-forest pb-1 hover:text-clay hover:border-clay transition-colors"
+              className="inline-block mt-7 font-jost text-[12px] uppercase tracking-caps border-b border-forest text-forest pb-1 hover:text-clay hover:border-clay transition-colors duration-300 ease-premium"
             >
               See recent results
             </Link>

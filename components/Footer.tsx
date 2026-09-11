@@ -27,7 +27,7 @@ export default function Footer() {
               <Link
                 key={l.href}
                 href={l.href}
-                className="font-jost text-[12px] uppercase tracking-caps text-cream/70 hover:text-cream transition-colors"
+                className="font-jost text-[12px] uppercase tracking-caps text-cream/70 hover:text-cream transition-colors duration-300 ease-premium"
               >
                 {l.label}
               </Link>

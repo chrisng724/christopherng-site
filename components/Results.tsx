@@ -32,7 +32,7 @@ export default function Results() {
         <div className="grid md:grid-cols-3 gap-8 mt-14">
           {CASES.map((c, i) => (
             <Reveal key={c.title} delay={i * 100}>
-              <div className="bg-pine/40 border border-cream/15 p-8 h-full flex flex-col">
+              <div className="bg-pine/40 border border-cream/15 rounded-2xl p-8 h-full flex flex-col">
                 <span className="font-jost text-[10px] uppercase tracking-caps text-clay">
                   {c.tag}
                 </span>
