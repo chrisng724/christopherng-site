@@ -13,7 +13,7 @@ export default function PodcastStrip() {
               </p>
             </div>
             <a
-              href="#"
+              href="/podcast"
               className="btn shrink-0 font-jost text-[12px] uppercase tracking-caps border border-cream/50 text-cream px-6 py-3 hover:bg-cream hover:text-forest self-start md:self-center"
             >
               Listen to the podcast
