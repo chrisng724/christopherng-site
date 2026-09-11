@@ -26,7 +26,7 @@ const CASES = [
       "Before their units closed, the presale market corrected hard. Some buyers elsewhere lost their entire deposits as prices fell out from under their contracts. Because these four had bought below market to begin with, they closed with their equity intact instead of a loss.",
     ],
     name: "Four clients",
-    context: "Investors, Fraser Valley presale",
+    context: "Investors, Richmond presale",
   },
   {
     tag: "Marketing",

@@ -34,7 +34,7 @@ const STEPS: Record<Role, Step[]> = {
   buyer: [
     {
       title: "The real conversation",
-      body: "Before I send you a single listing, we sit down for a proper buyer consultation. Lifestyle, must-haves, deal-breakers, timeline. Most of what makes a home wrong for someone never shows up on a spec sheet.",
+      body: "Before I send you a single listing, we sit down for an actual buyer consultation, and I mean your lifestyle, your must-haves, the things you won't budge on, your timeline, all of it, because most of what makes a home wrong for someone never shows up on a spec sheet.",
       proof: {
         text: "See how this played out for James in Burnaby",
         href: "/results",
@@ -42,15 +42,15 @@ const STEPS: Record<Role, Step[]> = {
     },
     {
       title: "Getting finance-ready",
-      body: "If you're not already working with a lender, I'll connect you with one of mine and stay in the loop as your pre-approval comes together, so we're negotiating with a real number, not a guess.",
+      body: "If you don't already have a lender, I'll connect you with one of mine and stay close to how your pre-approval is coming along, so by the time we're writing an offer, we're working with a real number instead of a rough guess.",
     },
     {
       title: "The search, built around you",
-      body: "I go looking on purpose, off-market conversations, pocket listings, projects that fit before they hit the general search. You're not doing this with a saved search you could've built yourself.",
+      body: "I go looking for the right places on purpose, through off-market conversations and pocket listings, so you're seeing homes that actually fit before they ever show up in a general search, not scrolling a saved search you could've set up on your own.",
     },
     {
       title: "Winning the deal",
-      body: "This is where strategy earns its keep, especially in a multiple-offer situation. Price is only one lever. Terms, timing, and how the offer is presented all matter, and I run all three.",
+      body: "This is where strategy really earns its keep, especially once you're up against other offers, because price is only one part of it. Terms, timing, and how the offer gets presented matter just as much, sometimes more, and that part I handle.",
       proof: {
         text: "See how this played out for Elaine in Richmond",
         href: "/results",
@@ -58,25 +58,25 @@ const STEPS: Record<Role, Step[]> = {
     },
     {
       title: "Contract to close",
-      body: "Once we're firm, I coordinate the inspector, your lender, and your lawyer or notary so nothing falls through the gap between them. You get one person tracking the whole file, even with several specialists on it.",
+      body: "Once we're firm, I'm coordinating the inspector, your lender, and your lawyer or notary myself, so if something looks like it's about to slip through the cracks between them, I'm the one who catches it before it becomes your problem.",
     },
     {
       title: "After you move in",
-      body: "The relationship doesn't end at possession. Market updates, trade referrals when you need them, and I'm still the first call for whatever comes next.",
+      body: "Things don't just end when you get your keys. I'll still send you market updates, point you toward a contractor or a plumber when you need one, and be the first call whenever your next move comes up, whether that's soon or a long way off.",
     },
   ],
   seller: [
     {
       title: "The real pricing conversation",
-      body: "We walk through a live CMA together, actual comparables, actual market data, and I'll tell you honestly what your home is worth and why, even when that's not the number you were hoping for.",
+      body: "We'll sit down and go through a live CMA together, the comparables, what's actually moving in your area right now, and I'll tell you honestly what your home is worth and why, even on the days that's not the number you were hoping to hear.",
     },
     {
       title: "Prep that actually moves the needle",
-      body: "I bring in a stager and a photographer I trust for the work that actually sells a home, and I'll tell you plainly which fixes are worth doing and which ones aren't worth your money.",
+      body: "I bring in a stager and a photographer I trust for the kind of work that actually sells a home, and I'll be straight with you about which fixes are worth doing before we list and which ones aren't worth spending your money on.",
     },
     {
       title: "The launch",
-      body: "A coming-soon push, a broker open house for the agents already working your area, and social media built for this listing specifically, not a template. The goal is demand before the first showing.",
+      body: "Before we open the doors, I run a coming-soon push, host a broker open house for the agents already working your area, and build social media around this specific listing rather than pulling out the same template every time, because the goal is having demand waiting before the first showing.",
       proof: {
         text: "See how this played out for Jay in South Surrey",
         href: "/results",
@@ -84,45 +84,45 @@ const STEPS: Record<Role, Step[]> = {
     },
     {
       title: "Offer strategy",
-      body: "Reviewing offers is a negotiation in itself, especially with more than one on the table. I'll walk you through every term, not just price, and handle the back-and-forth so you're never negotiating alone.",
+      body: "Reviewing offers is its own negotiation, especially once there's more than one on the table, so I'll walk you through every term, not just the price, and handle the back-and-forth myself so you're never doing it alone.",
     },
     {
       title: "Closing",
-      body: "I coordinate subject removal, your lawyer or notary, and the buyer's side of the file to keep the finish line clean. Fewer surprises in the last two weeks means a better close.",
+      body: "I coordinate subject removal, your lawyer or notary, and whatever's happening on the buyer's side, because the fewer surprises come up in those last two weeks, the smoother the whole thing closes.",
     },
     {
       title: "Staying in touch",
-      body: "Market updates and a standing invitation to call whenever your next move comes up, whether that's six months from now or six years.",
+      body: "I'll keep sending market updates and leave a standing invitation to call whenever your next move comes up, whether that's six months from now or six years from now.",
     },
   ],
   investor: [
     {
       title: "Understanding your strategy",
-      body: "Cash flow or appreciation, timeline, risk tolerance. Every recommendation that follows comes out of this conversation, not a generic pitch.",
+      body: "We start by talking through whether you're after cash flow or long-term appreciation, what your timeline actually looks like, and how much risk you're genuinely comfortable carrying, because everything I recommend after this comes out of that conversation, not some pitch I give everyone who walks in.",
     },
     {
       title: "Vetting the market and the project",
-      body: "I read a developer's pricing, deposit structure, and phase release against the whole market, the same way I track it on BCNewHomes.ca. Not just the unit in front of you.",
+      body: "I read a developer's pricing, deposit structure, and phase release against the entire market, the same way I track it every day on BCNewHomes.ca, so you're never judging a project on its own without knowing what else is out there.",
       proof: {
-        text: "See how this played out for four investors in the Fraser Valley",
+        text: "See how this played out for four investors in Richmond",
         href: "/results",
       },
     },
     {
       title: "Running the numbers before you offer",
-      body: "Rental yield, carrying cost, and realistic appreciation, run before you make an offer. Not after you've already fallen for the rendering.",
+      body: "We work out the rental yield, the carrying costs, and a realistic appreciation scenario before you make an offer, not after you've already fallen for the rendering in the sales centre.",
     },
     {
       title: "Execution",
-      body: "Negotiating price, deposit structure, and timing of entry, then coordinating your lawyer on contract review so the paperwork matches the deal we actually agreed to.",
+      body: "This is where I negotiate the price, the deposit structure, and the timing of entry, then bring in your lawyer to review the contract so the paperwork actually matches the deal we agreed to.",
     },
     {
       title: "Holding and exit",
-      body: "An honest read on when a market favours holding over selling, even when that's not the easy answer to give.",
+      body: "I'll give you an honest read on when the market favours holding over selling, even on the occasions when that's not the easy answer to give you.",
     },
     {
       title: "Growing the portfolio",
-      body: "Most of my investor relationships turn into more than one deal. When you're ready for the next one, or ready to refer someone, I'm already up to speed on your strategy.",
+      body: "Most of my investor relationships turn into more than one deal, and when you're ready for the next one, or ready to send someone my way, I'm already up to speed on your strategy instead of starting from zero.",
     },
   ],
 };
@@ -136,14 +136,20 @@ export default function Process() {
         <Reveal>
           <div className="max-w-2xl">
             <p className="eyebrow text-clay mb-4">How I Work</p>
-            <h2 className="font-archivo font-extrabold text-forest text-[32px] md:text-[46px] leading-[1.05] tracking-[-0.03em]">
-              I run the strategy. I&rsquo;m with you every step.
+            <h2 className="font-archivo font-extrabold text-forest text-[32px] md:text-[46px] leading-[1.15] tracking-[-0.03em]">
+              I set the strategy, and I stay on it with you, even on the
+              days you&rsquo;re actually talking to your lender or your
+              lawyer instead of me.
             </h2>
             <p className="font-jost text-pine/75 text-[16px] md:text-[17px] leading-[1.8] mt-6">
-              Some parts of a deal need a specialist, a lender, an inspector,
-              a lawyer, and I&rsquo;ll bring in people I trust for those. But
-              I&rsquo;m the one setting the strategy and the one you call,
-              from our first conversation through closing day and after.
+              Some parts of a deal really do need a specialist, someone to
+              run the numbers on a mortgage, walk a property with a trained
+              eye, or make sure the contract actually says what we think it
+              says, and I bring in people I&rsquo;ve worked with for years
+              to handle those pieces. What doesn&rsquo;t change is who&rsquo;s
+              setting the direction and taking your calls, from our first
+              conversation through closing day, and honestly, a good while
+              after that too.
             </p>
             <Link
               href="/partners"

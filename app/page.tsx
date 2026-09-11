@@ -60,13 +60,17 @@ export default function Home() {
           <Reveal>
             <div className="max-w-2xl mx-auto text-center">
               <p className="eyebrow text-clay mb-4">How I Work</p>
-              <h2 className="font-archivo font-extrabold text-cream text-[30px] md:text-[40px] leading-[1.05] tracking-[-0.03em]">
-                I run the strategy. You&rsquo;re never guessing what&rsquo;s next.
+              <h2 className="font-archivo font-extrabold text-cream text-[30px] md:text-[40px] leading-[1.15] tracking-[-0.03em]">
+                I set the direction and stay close enough that you&rsquo;re
+                never left guessing what happens next.
               </h2>
               <p className="font-jost text-cream/75 text-[16px] leading-[1.8] mt-6">
-                Buying, selling, or investing, I bring in the right
-                specialists when a deal needs them, but I&rsquo;m the one
-                running the strategy and the one you call throughout.
+                Buying, selling, or investing, there are moments a deal
+                genuinely needs a specialist, a lender, an inspector, a
+                lawyer, and I bring in people I trust for exactly those
+                moments. What stays the same is that I&rsquo;m the one
+                setting the strategy and the one you&rsquo;re calling, start
+                to finish.
               </p>
               <Link
                 href="/process"
