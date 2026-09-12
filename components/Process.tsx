@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import Reveal from "./Reveal";
+import processPhoto from "@/public/images/process-networking.jpg";
 
 type Role = "buyer" | "seller" | "investor";
 
@@ -154,6 +156,19 @@ export default function Process() {
             >
               See the trusted partners I work with
             </Link>
+          </div>
+        </Reveal>
+
+        {/* Photo — Chris in an actual working conversation, not a posed shot */}
+        <Reveal delay={40}>
+          <div className="aspect-[3/2] md:aspect-[2.4/1] relative overflow-hidden rounded-2xl mt-12 max-w-3xl">
+            <Image
+              src={processPhoto}
+              alt="Chris Ng talking with clients and colleagues"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 768px"
+            />
           </div>
         </Reveal>
 
